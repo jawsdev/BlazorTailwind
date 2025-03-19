@@ -1,0 +1,19 @@
+{
+  "name": "blazortailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx @tailwindcss/cli -i wwwroot/css/app.css -o wwwroot/css/base.css",
+    "watch:css": "npx @tailwindcss/cli -i wwwroot/css/app.css -o wwwroot/css/base.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}

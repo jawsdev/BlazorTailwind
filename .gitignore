@@ -1,0 +1,38 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+
+# Ignore lock files (if you prefer to commit them, remove these lines)
+project.lock.json
+*.pidb
+*.booproj
+
+# Ignore node_modules (for Node/Tailwind)
+node_modules/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore publish output
+wwwroot/dist/
+dist/
+
+# Ignore compiled styles if you prefer to generate them on build
+# (Optional: If you don't want to commit compiled CSS, uncomment below)
+# wwwroot/css/*.tailwind.css
+
+# Ignore any other build artifacts or logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
